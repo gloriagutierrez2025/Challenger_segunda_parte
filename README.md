@@ -1,2 +1,129 @@
-# Challenger_segunda_parte
-Informe para detectar factores de cancelación en Servicios empresa Telecom
+# Challenger_segunda_parte Telecom X
+**Descripción del Proyecto**
+Informe para detectar variables relevantes para la cancelación en Servicios empresa Telecom X
+**Objetivos**
+El objetivo principal es identificar patrones influyentes en la cancelación de servicios en empresa Telecom X, con la ayuda de herramientas estadísticas y modelos de clasificación que den cuenta de forma objetiva cuáles son las variables más influyentes para poder generar estrategias que logren disminuir la cancelación de servicios.
+**Estructura** 
+El proyecto se trabajó en Google Colab con un cuaderno principal y varias carpetas de apoyo.
+Contiene la secuencia completa de pasos: importación de librerías, carga y exploración de datos, preparación y limpieza, modelización y evaluación de resultados.
+
+**Librerías utilizadas:**
+-import pandas as pd
+
+-import seaborn as sns
+
+-import numpy as np
+
+-import requests
+
+-import matplotlib.pyplot as plt
+
+-import plotly.express as px
+
+-import plotly.graph_objects as go
+
+-import statsmodels.api as sm
+
+-from sklearn.model_selection import train_test_split
+
+-from sklearn.neighbors import KNeighborsClassifier
+
+-from sklearn.compose import ColumnTransformer
+
+-from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
+
+-from sklearn.pipeline import Pipeline
+
+-from sklearn.metrics import classification_report
+
+-from sklearn.linear_model import LogisticRegression
+
+-from sklearn.dummy import DummyClassifier
+
+-from sklearn.tree import DecisionTreeClassifier
+
+-import matplotlib.pyplot as plt
+
+-from sklearn.tree import plot_tree
+
+-import pickle 
+
+-from sklearn.ensemble import RandomForestClassifier
+
+-from sklearn.metrics import confusion_matrix, classification_report
+
+-from imblearn.over_sampling import SMOTE
+
+-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+
+-from sklearn.metrics import PrecisionRecallDisplay
+
+**Clasificación de variables:** 
+
+Numéricas
+
+Categóricas 
+
+**Normalización y codificación**
+
+A las numéricas se les aplicó normalización con StandardScaler para que todas quedaran en la misma escala.
+
+A las categóricas se les aplicó One-Hot Encoding (cuando eran solo categorías sin orden) o Label Encoding (cuando tenían un orden 
+natural). Esto permitió convertir texto en números que los modelos pudieran interpretar.
+
+**División en entrenamiento y prueba**
+
+El dataset se dividió en 70% para entrenamiento y 30% para prueba.
+
+Se usó la opción stratify=y para que la proporción entre clases se mantuviera igual en ambos conjuntos.
+
+**Justificación:**
+
+Normalizar evita que una variable con valores grandes “pese más” que las demás en el modelo.
+
+Codificar categorías era necesario porque los modelos no leen datos en formato texto.
+
+Separar en entrenamiento y prueba asegura que el modelo se evalúe con datos nuevos y no se sobreajuste.
+
+Evaluación de desbalance y aplicación de Smote para balancear.
+Gráfico
+
+
+Realización de análisis de correlación y selección de variables.
+Gráfico
+
+
+
+
+Apicación de modelos de clasificación.
+
+Evaluación el rendimiento de los modelos.
+Gráfico
+
+
+Conclusión
+Con la información analizada se decidió evaluar tres variables que tenían mayor correlación respecto a cancelación, los modelos reflejaron que la antiguedad puede ser un indicador relevante en clientes que cancelaban sus servicios, reflejando a menor antiguedad mayor indice de cancelación en los servicios de Telecom X. En el Gráfico de Modelo R.F. se muestran las tres variables con mayor importancia que influye más en la probabilidad de que un cliente cancele.
+
+Recomendaciones, para disminuir cancelaciones:
+
+**Riesgo cancelación en clientes con menos antiguedad, como acciones a seguir podemos ofrecer:**
+
+-Onboarding personalizado y seguimiento inicial.
+
+-Incentivos para primeros meses (descuentos, beneficios extras).
+
+-Comunicación proactiva para ver satisfacción de clientes o si existe algún problema que pueda influir en cancelación de servicios.
+
+**Riesgo por cancelación total facturado, como acciones a seguir:**
+
+-Revisar planes y facturación, ofrecer planes más flexibles, descuentos por fidelidad, acumulación de beneficios.
+
+-Comunicación proactiva para ver satisfacción de clientes o si existe algún problema que pueda influir en cancelación de servicios.
+
+**Riesgo por cancelación pago mensual alto, como acciones a seguir:**
+
+-Opciones de fraccionamiento.
+
+-Comunicación proactiva para ver satisfacción de clientes o si existe algún problema que pueda influir en cancelación de servicios.
+
+
