@@ -6,7 +6,7 @@ Informe para detectar variables relevantes para la cancelación en Servicios emp
 
 **Objetivos**
 
-El objetivo principal es identificar patrones influyentes en la cancelación de servicios en empresa Telecom X, con la ayuda de herramientas estadísticas y modelos de clasificación que den cuenta de forma objetiva cuáles son las variables más influyentes para poder generar estrategias que logren disminuir la cancelación de servicios.
+El objetivo principal es identificar patrones influyentes en la cancelación de servicios en empresa Telecom X, con la ayuda de herramientas estadísticas y modelos de clasificación que den cuenta de forma objetiva cuáles son las mejores variables para utilizar en los modelos de predicción.
 
 **Estructura** 
 El proyecto se trabajó en Google Colab con un cuaderno principal y varias carpetas de apoyo.
