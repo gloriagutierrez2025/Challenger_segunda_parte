@@ -121,6 +121,8 @@ Conclusión
 Con la información analizada se decidió evaluar en los modelos tres variables que tenían mayor correlación respecto a cancelación, los modelos reflejaron que la antiguedad puede ser un indicador relevante en clientes que cancelaban sus servicios, reflejando a menor antiguedad mayor indice de cancelación en los servicios de Telecom X. Los clientes que recién han contratado servicios y no han generado aún fidelidad son los más propensos a cancelar, para esto se hacen algunas recomendaciones a continuación:
 
 Recomendaciones para disminuir la evasión, enfocada en las tres variables de mayor correlación con nuestra variable objetivo Cancelación:
+Gráfico
+<img width="569" height="385" alt="Image" src="https://github.com/user-attachments/assets/ce5ea313-40b5-46a9-b535-7fb90b69adba" />
 
 **Riesgo cancelación en clientes con menos antiguedad, como acciones a seguir podemos ofrecer:**
 
