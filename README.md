@@ -105,6 +105,10 @@ Gráfico
 
 
 Apicación de modelos de clasificación.
+Modelo del Árbol antes de Smote
+<img width="1185" height="486" alt="Image" src="https://github.com/user-attachments/assets/77765e1a-bfd6-4bde-8198-c7cca3b7b9f5" />
+
+Modelo del Árbol después de Smote
 
 Evaluación el rendimiento de los modelos.
 Gráfico
