@@ -95,6 +95,9 @@ Evaluación de desbalance y aplicación de Smote para balancear.
 Gráfico
 <img width="548" height="465" alt="Image" src="https://github.com/user-attachments/assets/8728d66d-e45d-425d-8ddd-b2efae1f4aa5" />
 
+
+<img width="455" height="469" alt="Image" src="https://github.com/user-attachments/assets/1dc8d3f2-8b72-486d-b1b9-87c1fcea562d" />
+
 Realización de análisis de correlación y selección de variables.
 Gráfico
 
