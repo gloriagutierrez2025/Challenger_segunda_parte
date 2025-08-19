@@ -93,7 +93,7 @@ Separar en entrenamiento y prueba asegura que el modelo se evalúe con datos nue
 
 Evaluación de desbalance y aplicación de Smote para balancear.
 Gráfico
-
+<img width="548" height="465" alt="Image" src="https://github.com/user-attachments/assets/8728d66d-e45d-425d-8ddd-b2efae1f4aa5" />
 
 Realización de análisis de correlación y selección de variables.
 Gráfico
