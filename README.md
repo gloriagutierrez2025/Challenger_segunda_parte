@@ -1,13 +1,19 @@
 # Challenger_segunda_parte Telecom X
+
 **Descripción del Proyecto**
+
 Informe para detectar variables relevantes para la cancelación en Servicios empresa Telecom X
+
 **Objetivos**
+
 El objetivo principal es identificar patrones influyentes en la cancelación de servicios en empresa Telecom X, con la ayuda de herramientas estadísticas y modelos de clasificación que den cuenta de forma objetiva cuáles son las variables más influyentes para poder generar estrategias que logren disminuir la cancelación de servicios.
+
 **Estructura** 
 El proyecto se trabajó en Google Colab con un cuaderno principal y varias carpetas de apoyo.
 Contiene la secuencia completa de pasos: importación de librerías, carga y exploración de datos, preparación y limpieza, modelización y evaluación de resultados.
 
 **Librerías utilizadas:**
+
 -import pandas as pd
 
 -import seaborn as sns
@@ -102,7 +108,8 @@ Gráfico
 
 
 Conclusión
-Con la información analizada se decidió evaluar tres variables que tenían mayor correlación respecto a cancelación, los modelos reflejaron que la antiguedad puede ser un indicador relevante en clientes que cancelaban sus servicios, reflejando a menor antiguedad mayor indice de cancelación en los servicios de Telecom X. En el Gráfico de Modelo R.F. se muestran las tres variables con mayor importancia que influye más en la probabilidad de que un cliente cancele.
+
+Con la información analizada se decidió evaluar en los modelos tres variables que tenían mayor correlación respecto a cancelación, los modelos reflejaron que la antiguedad puede ser un indicador relevante en clientes que cancelaban sus servicios, reflejando a menor antiguedad mayor indice de cancelación en los servicios de Telecom X. 
 
 Recomendaciones, para disminuir cancelaciones:
 
