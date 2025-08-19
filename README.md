@@ -95,24 +95,26 @@ Evaluación de desbalance y aplicación de Smote para balancear.
 Gráfico
 <img width="548" height="465" alt="Image" src="https://github.com/user-attachments/assets/8728d66d-e45d-425d-8ddd-b2efae1f4aa5" />
 
-
 <img width="455" height="469" alt="Image" src="https://github.com/user-attachments/assets/1dc8d3f2-8b72-486d-b1b9-87c1fcea562d" />
 
 Realización de análisis de correlación y selección de variables.
+
 Gráfico
+<img width="709" height="540" alt="Image" src="https://github.com/user-attachments/assets/a7dc0621-2ff3-4dfb-b20c-d7fe78df1db8" />
 
-
-
+Box
+<img width="1160" height="444" alt="Image" src="https://github.com/user-attachments/assets/0dba035f-3a56-45fa-9db0-a9c21867b5ed" />
 
 Apicación de modelos de clasificación.
 Modelo del Árbol antes de Smote
 <img width="1185" height="486" alt="Image" src="https://github.com/user-attachments/assets/77765e1a-bfd6-4bde-8198-c7cca3b7b9f5" />
 
 Modelo del Árbol después de Smote
+<img width="1213" height="485" alt="Image" src="https://github.com/user-attachments/assets/706ada6c-08c8-443a-9d33-6d6b92b748aa" />
 
 Evaluación el rendimiento de los modelos.
 Gráfico
-
+<img width="455" height="537" alt="Image" src="https://github.com/user-attachments/assets/70ab9add-ed7e-4795-9c4d-93aac87d4023" />
 
 Conclusión
 
@@ -139,5 +141,3 @@ Recomendaciones, para disminuir cancelaciones:
 -Opciones de fraccionamiento.
 
 -Comunicación proactiva para ver satisfacción de clientes o si existe algún problema que pueda influir en cancelación de servicios.
-
-
